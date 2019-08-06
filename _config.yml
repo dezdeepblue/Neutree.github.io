@@ -1,22 +1,22 @@
 # Site settings
-title: Neucrack
+title: Dezdeepblue
 description: Drips And Drops About Neucrack
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. https://neucrack.com
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. https://dezdeepblue.com
 
 permalink: /:categories/:title.html
 
 # User settings
-username: Neucrack
-site_url: https://neucrack.com
-user_description: Embedded、Software、IOT、Cloud、AI。。。
+username: dezdeepblue
+site_url: https://dezdeepblue.com
+user_description: Embedded、Software、IOT、。。。
 user_title: Creator
-email: CZD666666@gmail.com
-github_username:  neutree
+email: dezdeepblue@gmail.com
+github_username:  dezdeepblue
 
 
 # Google-analytics
 google-analytics:
-  id: "UA-119047820-4"
+  id: 
 
 
