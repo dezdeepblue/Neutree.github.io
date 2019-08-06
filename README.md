@@ -5,6 +5,6 @@ description: Readme
 categories: 
 ---
 
-source code of [neucrack.com](http://neucrack.com)
+source code of [dezdeepblue.netlify.com](https://dezdeepblue.netlify.com)
 
 <img src="/assets/images/post_list_demo.png">
