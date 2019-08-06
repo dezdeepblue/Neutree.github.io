@@ -13,20 +13,20 @@ $(document).ready(function(){
 	});
 
   	document.getElementById("mail").onclick = function MailInfo(){
-    	alert("\n\n\n\n\n\n\n\n  CZD666666@gmail.com \n\n\n\n\n\n");
+    	alert("\n\n\n\n\n\n\n\n  dezdeepblue@gmail.com \n\n\n\n\n\n");
   	}
 
-    //去掉默认的contextmenu事件，否则会和右键事件同时出现。
+    //Remove the default contextmenu event, otherwise it will appear at the same time as the right-click event
     document.oncontextmenu = function(e){
        e.preventDefault();
     };
     document.getElementById("body_").onmousedown = function(e){
        if(e.button ==2){
-//           alert("你点了右键");
+//           alert("You Clicked Right Button");
        }else if(e.button ==0){
-//           alert("你点了左键");
+//           alert("You clicked Left Button");
        }else if(e.button ==1){
-//           alert("你点了滚轮");
+//           alert("You Clicked the Wheel");
        }
     }
     onResized();
@@ -60,7 +60,7 @@ function AddBackground(){//http://www.htmleaf.com/jQuery/Layout-Interface/201506
 };
 
 function onResized(){
-    //重新设置header背景大小
+    //Reset the header background size
     $(".page-header-bg").css("height",$(document).height());
     $(".page-header-bg").removeJParticle();
     AddBackground();
